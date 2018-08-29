@@ -1,6 +1,7 @@
 ---
 templateKey: content-page
 title: About Us
+subtitle: Who We Are
 meta_title: About Us
 meta_description: >-
   Berlin, New York, Small, Agile

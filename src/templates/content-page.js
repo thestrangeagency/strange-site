@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Content, {HTMLContent} from '../components/Content'
 
-export const ContentPageTemplate = ({title, content, contentComponent}) => {
+export const ContentPageTemplate = ({title, subtitle, content, contentComponent}) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -14,7 +14,7 @@ export const ContentPageTemplate = ({title, content, contentComponent}) => {
       <section className='section'>
         <div className='container has-text-centered'>
           <h1 class='title is-size-1-desktop is-size-1-tablet is-size-2-mobile'>{title}</h1>
-          <h2 class='subtitle'>Granular audio fluid</h2>
+          <h2 class='subtitle'>{subtitle}</h2>
         </div>
       </section>
       <section className='section'>
@@ -34,6 +34,7 @@ export const ContentPageTemplate = ({title, content, contentComponent}) => {
 
 ContentPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
@@ -50,6 +51,7 @@ const ContentPage = ({data}) => {
       <ContentPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        subtitle={post.frontmatter.subtitle}
         content={post.html}
       />
     </div>
@@ -68,6 +70,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         meta_title
         meta_description
       }
