@@ -19,13 +19,13 @@ const NavBar = () => {
       </div>
       <div className='navbar-menu' id='navMenu'>
         <div className='navbar-start'>
-          <Link className='navbar-item is-uppercase' to='/pricing'>
+          <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/pricing'>
                         Eating
           </Link>
-          <Link className='navbar-item is-uppercase' to='/about'>
+          <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/about'>
                         About
           </Link>
-          <Link className='navbar-item is-uppercase' to='/blog'>
+          <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/blog'>
                         Blog
           </Link>
         </div>
