@@ -19,9 +19,6 @@ const NavBar = () => {
       </div>
       <div className='navbar-menu' id='navMenu'>
         <div className='navbar-start'>
-          <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/pricing'>
-            Pricing
-          </Link>
           <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/about'>
             About
           </Link>
