@@ -3,10 +3,10 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { AboutPageTemplate } from '../../templates/about-page'
+import { ContentPageTemplate } from '../../templates/content-page'
 
-const AboutPagePreview = ({ entry, widgetFor }) => (
-  <AboutPageTemplate
+const ContentPagePreview = ({ entry, widgetFor }) => (
+  <ContentPageTemplate
     title={entry.getIn(['data', 'title'])}
     meta_title={entry.getIn(['data', 'meta_title'])}
     meta_description={entry.getIn(['data', 'meta_description'])}
@@ -14,11 +14,11 @@ const AboutPagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-AboutPagePreview.propTypes = {
+ContentPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default AboutPagePreview
+export default ContentPagePreview

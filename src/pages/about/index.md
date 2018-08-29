@@ -1,38 +1,19 @@
 ---
-templateKey: about-page
+templateKey: content-page
 title: About Us
-meta_title: About Us | Gatsby Starter Business
+meta_title: About Us
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Berlin, New York, Small, Agile
 ---
-## Lorem ipsum dolor sit amet, consectetuer
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa 
-quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+## East Meets West
 
-##In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+Based in Berlin and New York, we are optimally positioned to provide world-class services while keeping our overhead low. Our founders hail from the US and have always worked with American companies, so they are well-steeped in American culture and working methodology. At the same time, our European roots help us hire and coordinate the best talent abroad.
 
-Nullam dictum felis eu pede mollis 
-pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra 
-quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. 
-Etiam ultricies nisi vel augue.  Nam eget dui. *Etiam rhoncus*. Maecenas 
-tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. 
-Nam quam nunc, blandit vel, luctus pulvinar
+## Glocal
 
-###Curabitur ullamcorper ultricies nisi.
+Cultural proximity is critical to clear communication and delivering the product you’re after. We provide nearshore development managed by a team of US agency veterans to provide you a local dev shop experience at very competitive rates.
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, 
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, 
-mollis sed, nonummy id, metus. 
-* Cras ultricies mi eu turpis hendrerit fringilla. 
-* Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-* In ac dui quis mi consectetuer lacinia.
+## Small and Agile
 
-**Etiam ultricies nisi vel augue!**
+While we can scale up to tackle enterprise projects, we keep our team small and agile. We limit hierarchy to keep communication fast and direct, and we rely on rigorous git flow, agile methodology, automated testing, and continuous integration to ensure product development moves quickly and efficiently and remains on target.
