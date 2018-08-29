@@ -20,13 +20,16 @@ const NavBar = () => {
       <div className='navbar-menu' id='navMenu'>
         <div className='navbar-start'>
           <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/pricing'>
-            Eating
+            Pricing
           </Link>
           <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/about'>
             About
           </Link>
           <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/services'>
             Services
+          </Link>
+          <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/work'>
+            Work
           </Link>
           <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/blog'>
             Blog
