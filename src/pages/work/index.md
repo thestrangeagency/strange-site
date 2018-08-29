@@ -9,7 +9,7 @@ meta_description: >-
 
 ## Clients
 
-We've partnered with amazing agencies to deliver award-winning work for outstanding brands. Send us an [email](mailto:hellostranger@strange.agency) to request an updated portfolio.
+We've partnered with amazing agencies to deliver award-winning work for outstanding brands, and we've worked directly with startups and small and medium-sized businesses. Send us an [email](mailto:hellostranger@strange.agency) to request an updated portfolio.
 
 <div class='client-logos pt-1 pb-2'>
   <img width="90" height="40" src="../../img/logos/absolut.svg" />
@@ -31,4 +31,4 @@ We've partnered with amazing agencies to deliver award-winning work for outstand
 
 ## Ventures
 
-As idle hands do the devil\'s work, we keep busy by producing our own line of strange apps. Check them out on the [app store](https://itunes.apple.com/us/developer/the-strange-agency-llc/id304558283)!
+We keep busy by producing our own line of strange apps, particularly in the audiovisual realm. Check them out on the [app store](https://itunes.apple.com/us/developer/the-strange-agency-llc/id304558283)!
