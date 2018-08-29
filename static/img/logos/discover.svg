@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="1148.976377952756" height="241.8897637795276" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <metadata id="metadata2899">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <text x="0" y="0" id="svg_1">Disc</text>
+  <g id="layer1" transform="matrix(0.949472 0 0 0.949483 496.947 38.6272)">
+   <path d="m173.333359,100.921906a77.916664,77.916664 0 1 1 -155.833328,0a77.916664,77.916664 0 1 1 155.833328,0z" id="path3194" fill="#cccccc"/>
+  </g>
+  <text xml:space="preserve" x="-9.842519" y="193.30708" id="text2903" font-family="Verdana" fill="#cccccc" text-anchor="start" font-weight="bold" font-style="normal" font-size="220px">
+   <tspan id="tspan2905" x="-9.842519" y="193.30708">Disc</tspan>
+  </text>
+  <text xml:space="preserve" x="655.51172" y="193.41451" id="text2911" font-family="Verdana" fill="#cccccc" text-anchor="start" font-weight="bold" font-style="normal" font-size="220px">
+   <tspan id="tspan2913" x="655.51172" y="193.41451">ver</tspan>
+  </text>
+  <text xml:space="preserve" x="1043.307" y="69.291351" id="text2820" font-family="Bitstream Vera Sans" fill="#cccccc" font-weight="normal" font-style="normal" font-size="40px">
+   <tspan id="tspan2822" x="1043.307" y="69.291351">®</tspan>
+  </text>
+ </g>
+</svg>
