@@ -1,10 +1,55 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-$primary: #00d1b2
-$primary-invert: #ffffff
+$black: #1b1b1b
+$light-grey: #cccccc
+$bg-grey: #bdbdbd
+$tan: #ab9d78
+$cyan: #31bffc
+$deep-blue: #117dab
 
-nav
-  border-bottom: lightgray solid 0.1vmin
+// light
+$grey-darker: #404040
+$white-ter: #eeeeee
+
+$navbar-background-color: $black
+$navbar-item-hover-background-color: $black
+$navbar-item-hover-color: $white
+$navbar-tab-active-color: $white
+
+$family-serif: "Georgia", serif
+$family-primary: $family-serif
+$family-headers: "BebasNeue", mono
+
+$footer-background-color: $cyan
+
+$size-1: 9rem
+$size-2: 6rem
+
+$primary: $tan
+$link: $cyan
+
+@import "~bulma"
+
+.navbar
+  border-bottom: 2px solid $tan
+
+.navbar-item
+  font-family: $family-headers
+  color: $light-grey
+  font-size: 20px
+  padding-left: 20px
+  padding-right: 20px
+
+a.navbar-item.is-active
+  color: $white
+
+.navbar-brand
+  padding-left: 60px
+  padding-right: 80px
+
+.navbar-burger
+  span
+    background-color: $tan
 
 .content .taglist
   list-style: none
@@ -23,5 +68,3 @@ nav
 
 .margin-top-0
   margin-top: 0 !important
-
-@import "~bulma"

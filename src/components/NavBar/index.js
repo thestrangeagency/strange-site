@@ -9,7 +9,7 @@ const NavBar = () => {
     <nav className='navbar is-fixed-top' aria-label='main navigation'>
       <div className='navbar-brand'>
         <Link to='/' className='navbar-item'>
-                    Gatsby Starter Business
+          <img src='../../img/logo-header@2x.png' width='191' height='23' />
         </Link>
         <button className='button navbar-burger' data-target='navMenu'>
           <span />
@@ -19,13 +19,13 @@ const NavBar = () => {
       </div>
       <div className='navbar-menu' id='navMenu'>
         <div className='navbar-start'>
-          <Link className='navbar-item' to='/pricing'>
-                        Pricing
+          <Link className='navbar-item is-uppercase' to='/pricing'>
+                        Eating
           </Link>
-          <Link className='navbar-item' to='/about'>
+          <Link className='navbar-item is-uppercase' to='/about'>
                         About
           </Link>
-          <Link className='navbar-item' to='/blog'>
+          <Link className='navbar-item is-uppercase' to='/blog'>
                         Blog
           </Link>
         </div>
