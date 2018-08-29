@@ -11,22 +11,20 @@ const PostCard = ({posts}) => {
         .filter(post => post.node.frontmatter.templateKey === 'article-page')
         .map(({node: post}) => (
           <div
-            className='content'
-            style={{border: '1px solid #eaecee', padding: '2em 4em'}}
+            className='box'
             key={post.id}
           >
             <p>
-              <Link className='has-text-primary' to={post.fields.slug}>
+              <Link className='has-text-primary blog-title' to={post.fields.slug}>
                 {post.frontmatter.title}
               </Link>
-              <span> &bull; </span>
-              <small>{post.frontmatter.date}</small>
+              <span class='blog-date'>{post.frontmatter.date}</span>
             </p>
             <p>
               {post.excerpt}
               <br />
               <br />
-              <Link className='button is-small' to={post.fields.slug}>
+              <Link className='button is-link' to={post.fields.slug}>
                                 Keep Reading →
               </Link>
             </p>

@@ -4,11 +4,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Contact = ({email, description}) => {
+const Contact = ({title, email, description}) => {
   return (
-    <div
-      className='content'
-      style={{border: '1px solid #eaecee', padding: '2em 4em'}}>
+    <div className='box'>
+      <p className='contact-title'>{title}</p>
       <p><a href={`mailto:${email}`}>{email}</a></p>
       <p>{description}</p>
     </div>
@@ -16,6 +15,7 @@ const Contact = ({email, description}) => {
 }
 
 Contact.propTypes = {
+  title: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   description: PropTypes.string,
 }

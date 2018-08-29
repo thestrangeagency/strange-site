@@ -19,7 +19,7 @@ export const HomePageTemplate = ({
     </Helmet>
     <section class='hero is-light is-fullheight'>
       <div class='hero-head'>
-          <img src='../../img/Logo.svg' />
+        <img src='../../img/Logo.svg' />
       </div>
 
       <div class='hero-body'>
