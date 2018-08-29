@@ -17,19 +17,10 @@ export default class BlogPage extends Component {
         <Helmet>
           <title>Blog | Gatsby Starter Business</title>
         </Helmet>
-        <section className='hero is-primary is-bold'>
-          <div className='hero-body'>
-            <div className='container'>
-              <div className='columns'>
-                <div className='column is-10 is-offset-1'>
-                  <div className='section'>
-                    <h1 className='title'>
-                                            Blog
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <section className='section'>
+          <div className='container has-text-centered'>
+            <h1 class='title is-size-1-desktop is-size-1-tablet is-size-2-mobile'>Blog</h1>
+            <h2 class='subtitle'>What&apos;s Up</h2>
           </div>
         </section>
         <section className='section'>
