@@ -11,19 +11,10 @@ const TagsPage = ({
 }) => (
   <div>
     <Helmet title={`Tags | ${title}`} />
-    <section className='hero is-primary is-bold'>
-      <div className='hero-body'>
-        <div className='container'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <h1 className='title'>
-                                    Tags
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section className='section'>
+      <div className='container has-text-centered'>
+        <h1 class='title is-size-1-desktop is-size-1-tablet is-size-2-mobile'>Tags</h1>
+        <h2 class='subtitle'>Blog Topics</h2>
       </div>
     </section>
     <section className='section'>
@@ -36,7 +27,7 @@ const TagsPage = ({
             <ul className='taglist'>
               {group.map(tag => (
                 <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                  <Link className='button is-link' to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                     {tag.fieldValue} ({tag.totalCount})
                   </Link>
                 </li>

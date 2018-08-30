@@ -45,7 +45,7 @@ export const ArticleTemplate = ({
                 <ul className='taglist'>
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <Link className='button is-link' to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>
                   ))}
                 </ul>
@@ -58,10 +58,12 @@ export const ArticleTemplate = ({
               excerpt={meta_desc}
             />
             <hr />
-            <Disqus
+            {/*
+              <Disqus
               title={title}
               slug={slug}
             />
+            */}
           </div>
         </div>
       </div>
