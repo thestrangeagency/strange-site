@@ -60,7 +60,6 @@ const Footer = () => {
 
         <div class='column'>
           <h1 class='title'>
-            hi
           </h1>
         </div>
 
