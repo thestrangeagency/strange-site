@@ -33,7 +33,7 @@ export default class HTML extends Component {
           <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
           {this.props.headComponents}
           <link rel='shortcut icon' href={favicon} />
-          <script defer src='https://use.fontawesome.com/releases/v5.0.10/js/all.js' integrity='sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+' crossorigin='anonymous' />
+          <script defer src='https://use.fontawesome.com/releases/v5.0.10/js/all.js' integrity='sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+' crossOrigin='anonymous' />
           {css}
         </head>
         <body>
