@@ -7,9 +7,13 @@ meta_description: >-
   App Development, Consulting, Wireframes, Design, Prototyping, Infrastructure, Dev Ops, CMS, API
 ---
 
-## Application Development
+## Native iOS Development
 
 Nothing lets you exploit the hardware’s potential like a native application. We work with Objective C, Swift, or even C++ when appropriate, to make the user experience as quick and fluid as possible. We get under the hood to make your app responsive, quick, and generally awesome.
+
+## Web Development
+
+Using the latest front-end technologies, like React and Vue, coupled with tried and trusted back end frameworks like Django, we develop bespoke web applications that are fast, secure, and reliable. We are firm believers in continuous delivery and continuous integration, and we use extensive automated testing on both the client and server.
 
 ## Consulting
 
