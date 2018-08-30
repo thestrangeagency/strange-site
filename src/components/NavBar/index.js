@@ -11,11 +11,11 @@ const NavBar = () => {
         <Link to='/' className='navbar-item'>
           <img src='../../img/logo-header@2x.png' width='191' height='23' />
         </Link>
-        <button className='button navbar-burger' data-target='navMenu'>
+        <a role='button' className='navbar-burger' data-target='navMenu'>
           <span />
           <span />
           <span />
-        </button>
+        </a>
       </div>
       <div className='navbar-menu' id='navMenu'>
         <div className='navbar-start'>
@@ -28,9 +28,11 @@ const NavBar = () => {
           <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/work'>
             Work
           </Link>
+          {/*}
           <Link className='navbar-item is-uppercase' activeClassName='is-active' to='/blog'>
             Blog
           </Link>
+          */}
         </div>
         <div className='navbar-end'>
           <div className='navbar-item'>
