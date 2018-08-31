@@ -53,16 +53,17 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        // Setting a color is optional.
-        color: config.themeColor,
-        // Disable the loading spinner.
-        showSpinner: false,
-      },
-    },
+    // NOTE: this only works with HTTPS domains
+    // `gatsby-plugin-offline`,
+    // {
+    //   resolve: `gatsby-plugin-nprogress`,
+    //   options: {
+    //     // Setting a color is optional.
+    //     color: config.themeColor,
+    //     // Disable the loading spinner.
+    //     showSpinner: false,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
