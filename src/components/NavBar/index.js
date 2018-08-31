@@ -43,7 +43,7 @@ class NavBar extends Component {
             <Link onClick={this.hideMenu} className='navbar-item is-uppercase' activeClassName='is-active' to='/work'>
               Work
             </Link>
-            {/*}
+            {/*
             <Link onClick={this.hideMenu} className='navbar-item is-uppercase' activeClassName='is-active' to='/blog'>
               Blog
             </Link>
