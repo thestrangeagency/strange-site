@@ -18,7 +18,7 @@ const PostCard = ({posts}) => {
               <Link className='has-text-primary blog-title' to={post.fields.slug}>
                 {post.frontmatter.title}
               </Link>
-              <span class='blog-date'>{post.frontmatter.date}</span>
+              <span className='blog-date'>{post.frontmatter.date}</span>
             </p>
             <p>
               {post.excerpt}

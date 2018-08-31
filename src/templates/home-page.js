@@ -17,17 +17,17 @@ export const HomePageTemplate = ({
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
-    <section class='hero is-light is-fullheight'>
-      <div class='hero-head'>
+    <section className='hero is-light is-fullheight'>
+      <div className='hero-head'>
         <img src='../../img/Logo.svg' />
       </div>
 
-      <div class='hero-body'>
-        <div class='container'>
-          <h1 class='title'>
+      <div className='hero-body'>
+        <div className='container'>
+          <h1 className='title'>
             {description}
           </h1>
-          <h2 class='subtitle'>
+          <h2 className='subtitle'>
           </h2>
         </div>
       </div>

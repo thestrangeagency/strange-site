@@ -19,8 +19,8 @@ export default class BlogPage extends Component {
         </Helmet>
         <section className='section'>
           <div className='container has-text-centered'>
-            <h1 class='title is-size-1-desktop is-size-1-tablet is-size-2-mobile'>Blog</h1>
-            <h2 class='subtitle'>What&apos;s Up</h2>
+            <h1 className='title is-size-1-desktop is-size-1-tablet is-size-2-mobile'>Blog</h1>
+            <h2 className='subtitle'>What&apos;s Up</h2>
           </div>
         </section>
         <section className='section'>
