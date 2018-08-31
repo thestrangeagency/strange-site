@@ -64,10 +64,17 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        id: config.googleTagManagerID,
-        includeInDevelopment: false,
+        trackingId: config.googleTagManagerID,
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
       },
     },
     {
@@ -169,4 +176,3 @@ module.exports = {
     'gatsby-plugin-netlify',
   ],
 }
-
