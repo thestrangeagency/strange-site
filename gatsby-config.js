@@ -47,12 +47,12 @@ module.exports = {
         plugins: [],
       },
     },
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-netlify-cms',
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`,
+    //   },
+    // },
     // NOTE: this only works with HTTPS domains
     // `gatsby-plugin-offline`,
     // {
@@ -78,30 +78,30 @@ module.exports = {
         exclude: ["/preview/**", "/do-not-track/me/too/"],
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: config.siteTitle,
-        short_name: config.siteTitleAlt,
-        start_url: '/',
-        background_color: config.backgroundColor,
-        theme_color: config.themeColor,
-        display: 'standalone',
-        icons: [
-          {
-            src: `/icons/icon-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/icons/icon-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
-
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: config.siteTitle,
+    //     short_name: config.siteTitleAlt,
+    //     start_url: '/',
+    //     background_color: config.backgroundColor,
+    //     theme_color: config.themeColor,
+    //     display: 'standalone',
+    //     icons: [
+    //       {
+    //         src: `/icons/icon-192x192.png`,
+    //         sizes: `192x192`,
+    //         type: `image/png`,
+    //       },
+    //       {
+    //         src: `/icons/icon-512x512.png`,
+    //         sizes: `512x512`,
+    //         type: `image/png`,
+    //       },
+    //     ],
+    //   },
+    //
+    // },
     {
       resolve: 'gatsby-plugin-feed',
       options: {
@@ -174,6 +174,6 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-netlify',
+    // 'gatsby-plugin-netlify',
   ],
 }
